@@ -1,0 +1,222 @@
+body{
+	background: #F3F1F1;
+}
+
+#header{
+	height: 7%;
+	margin-bottom: 20px;
+	background: #FFFFFF;
+}
+
+#container{
+	height: 100px;
+}
+
+#left{
+	background: #FFFFFF;
+}
+#middle{
+	margin: 0px 15px 0px 5px;
+}
+#right{ 
+	background: #FFFFFF;
+}
+
+
+/*      header        start      */
+#header-img{
+	float: left;
+	margin: 15px 0px 5px 5px;
+}
+
+.header-menu>li{
+	float: left;
+	font-size: 16px;
+	font-family: "bodoni mt";
+	margin:15px 5px 5px 20px;
+}
+.header-menu li a{
+	color:black;	
+}
+.header-menu li a:hover{
+	cursor:pointer;
+	color:black;
+}
+.header-menu li a:hover{
+	text-decoration: none;
+	color: red;
+}
+
+.user_header{
+	position:relative;
+}
+.indexLoginInfo{
+	position:absolute;
+	top:16%;
+	width:100%;
+}
+.indexLogin{
+	margin-left:0%;
+	background:#fff;
+	text-align: center;
+}
+
+.header_myInformation{
+	padding:15% 0% 0% 0%;
+}
+
+.indexLogin li{
+	padding-bottom:-10%;
+}
+.indexLogin li a{
+	font-size:16px;
+}
+
+
+#menu-left{
+	height: 100%;
+}
+
+#menu-right{
+	height: 100%;
+}
+
+/*      header        end      */
+
+/*     middle --left    start */
+#left ul li{
+	text-align: center;
+	margin-left: -15%;
+	width: 130%;
+	padding: 5%;
+}
+#left ul li a{
+	color: #9E7070;
+	font-size: 15px;
+}
+
+/*     middle --left    end */
+
+
+/*     middle --middle  start */
+
+#middle_headerPc img{
+	width: 760px;
+	height: 200px;
+}
+
+#middle_hengfu{
+	width: 760px;
+	height: 25px;
+	background: red;
+	text-align: center;
+	font-size: 17px;
+	color: #FFFFFF;
+}
+
+#middle_message{
+	width: 760px;
+}
+
+#middle_message .table{
+	height:106px;
+	margin-bottom:-15px;
+}
+#middle_message table tr{
+	background: #FFFFFF;
+}
+
+.tdContainer a:hover{
+	color:orange;
+	text-decoration: none;
+}
+
+.meessage_Titlefont{
+	font-size: 18px;
+	font-weight: 600;
+	padding-left: 20px;
+	margin:10px 5px 20px 5px;
+	color:black;
+}
+.meessage_authorFont{
+	font-size: 13px;
+	padding-left: 20px;
+	margin-bottom:10px;
+	color:black;
+}
+.meessage_authorFont em{
+	padding-right: 20px;
+}
+/*     middle --middle  end */
+
+
+/*     middle----- right   start */
+/*                      search                 */
+.search{
+	background: #FFFFFFFF;
+	margin-top: 14%;
+	padding: 5% 0%;
+	text-align: center;
+}
+
+.search label{
+	font-size: 20px;
+	margin-bottom: 10%;
+}
+
+/*         »’¿˙                                */
+#datepicker{
+	background: #FFFFFFFF;
+	margin-top: 14%;
+	text-align: center;
+}
+
+#datepicker label{
+	font-size: 19px;
+	margin-bottom: 10%;
+}
+
+/*                      aphorism                */
+.aphorism{
+	background: #FFFFFFFF;
+	margin-top: 14%;
+	padding: 5% 0%;
+	text-align:center;
+}
+
+.aphorism label{
+	font-size: 19px;
+	margin-bottom: 10%;
+}
+
+
+/*           index  mesgUserShow      */
+
+
+.readNumInfo{
+	float:right;
+	font-size:14px;
+}
+
+
+.fixednav {
+	 position: fixed;
+	 left: 7.5%;
+	 margin-right:90%;
+	 z-index: 1;
+}
+
+
+/*      index  right   news         */
+#todayNews .newsImg img{
+	float:left;
+	width:40%;
+	height:50%;
+}
+#todayNews .newsTitle{
+	float:left;
+	margin-left:10px;
+	margin-bottom:10%;
+	color: black;
+    font-weight: bold;
+}

@@ -1,0 +1,286 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a:hover{
+	cursor: pointer;
+}
+
+#container{
+	width: 1349px;
+}
+
+#header{
+	height: 200px;
+	border-bottom: 1px solid #ff0036;
+}
+#head_nav{
+	height: 31px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	color: #999;
+	font-size: 12px;
+}
+
+#head_nav>div{
+	display: inline-block;
+}
+
+.head_nav_left{
+	margin-left: 45px;
+}
+
+.head_nav_left>a{
+	display: inline-block;
+	line-height: 31px;
+	text-align: center;
+	margin-left: 16px;
+}
+
+.head_nav_right{
+	margin-left: 550px;
+}
+
+.head_nav_right>a{
+	display: inline-block;
+	line-height: 31px;
+	text-align: center;
+	margin-right: 20px;
+}
+
+.head_nav_right_a:hover{
+	background-color: white;
+	padding-bottom: 1px;
+}
+
+#header_body{
+	height: 130px;
+}
+
+#header_body>form{
+	display: inline-block;
+	margin-left: 65px;
+	position: relative;
+	top: -60px;
+}
+
+#header_body>form>input{
+	width: 482px;
+	height: 28px;
+	padding: 5px 3px 5px 5px;
+	border: 2px solid #FF0036;
+	font-size: 16px;
+}
+
+#header_body>form>button{
+	width: 132px;
+	height: 44px;
+	position: relative;
+	left: -4px;	
+	background-color: #ff0036;
+	font-size: 18px;
+	font-weight: 700;
+	color: white;
+	letter-spacing: 5px;
+}
+
+#header_body>div{
+	margin-top: -50px;
+	margin-left: 360px;
+	font-size: 15px;
+	color: #999999;
+}
+
+#header_body>div>a{
+	margin-right: 15px;
+}
+
+#header_foot{
+	padding-left: 50px;
+}
+
+#header_foot>a>img{
+	width: 100px;
+	height: 30px;
+	position: relative;
+	top: 8px;
+}
+
+#header_foot>span{
+	background-color: #ff0036;
+	display: inline-block;
+	width: 200px;
+	height: 30px;
+	padding-top: 3px;
+	text-align: center;
+	position: relative;
+	top: -5px;
+	color: white;
+}
+
+#header_foot>a{
+	margin-right: 10px;
+	color: #333333;
+}
+
+#header_foot>a:hover{
+	color: #ff0036;
+}
+
+#bodyer_top{
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+#bodyer_top>div{
+	float: left;
+}
+
+.product_img>img{
+	width: 418px;
+	height: 418px;
+	border: 1px solid #f2f2f2;
+}
+
+
+.product_details_title{
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.product_details_evaluate{
+	margin-bottom: 10px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-top: 1px dotted #999999;
+	border-bottom: 1px dotted #999999;
+}
+
+.product_details_evaluate>span{
+	color: #999999;
+	margin-right: 40px;
+}
+
+.product_details_form{
+	color: #999999;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.product_details_form>input,.product_details_form>select{
+	height: 25px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+.product_details_form>button{
+	width: 180px;
+	height: 40px;
+	background-color: #ff0036;
+	color: white;
+	font-size: 16px;
+	letter-spacing: 5px;
+	border: 1px solid white;
+	margin-left: 140px;
+	margin-top: 10px;
+}
+
+.product_details_form>button:hover{
+	cursor: pointer;
+}
+
+#bodyer_foot{
+	height: 213px;
+	clear: both;
+	border-top: 1px solid #d1d7dc;
+	border-bottom: 1px solid #d1d7dc;
+	position: relative;
+	top: 30px;
+}
+
+#bodyer_foot>div{
+	height: 213px;
+	float: left;
+}
+
+.bodyer_foot_left{
+	margin-left: 80px;
+	padding-top: 30px;
+}
+
+.bodyer_foot_left_img_bootom{
+	margin-top: 113px;
+}
+
+.bodyer_foot_center{
+	margin-left: 100px;
+}
+
+.bodyer_foot_center>div{
+	float: left;
+	width: 150px;
+	color: #646464;
+	margin-right: 30px;
+}
+
+.bodyer_foot_center>div>span{
+	display: block;
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.bodyer_foot_center>div>a{
+	display: block;
+	font-size: 14px;
+}
+
+.bodyer_foot_center a:hover{
+	text-decoration: underline;
+}
+
+.bodyer_foot_right{
+	margin-left: 60px;
+}
+
+.bodyer_foot_right>div{
+	font-size: 16px;
+	font-weight: 600;
+	color: #646464;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+#footer{
+	height: 100px;
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-left: 80px;
+	font-size: 12px;
+	clear: both;
+	background-color: #c40000;
+	color: white;
+}
+
+#footer>a{
+	margin-right: 10px;
+}
+
+#foot>a:link,#foot>a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+#foot>a:hover,#foot>a:hover:active{
+	text-decoration: underline;
+}
+
+#footer>div{
+	color: #999999;
+}

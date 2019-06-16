@@ -1,0 +1,71 @@
+body{
+	background: #F2F2F2;
+	position: relative;
+}
+
+/*       header    start      */
+#header{
+	background: #E97C62;
+	height: 250px;
+	text-align: center;
+}
+#header h1{
+	color: #FFFFFF;
+	font-size: 29px;
+	padding:30px 0px 10px 0px;
+}
+#header img{
+	height: 50px;
+}
+#header .zhuce-ul{
+	margin: 5% 0 1% 80%;
+}
+
+#header .zhuce-ul li{
+	list-style: none;
+	margin-left: 30px;
+	float: left;
+}
+
+#header .zhuce-ul li a{
+	font-size: 17px;
+	color: #FFFFFF;
+}
+
+/*       header    end      */
+
+/*     container-form   start      */
+#container-form{
+	width: 50%;
+	height: 550px;
+	background: #FFFFFF;
+	position: absolute;
+	box-shadow: 0 0 10px rgba(13, 5, 9, 0.27);
+	left: 26%;
+	top: 155px;
+}
+
+#container-form h1{
+	font-size: 18px;
+	padding: 25px 0px 40px 15px;
+}
+
+#email-msg,#password-msg,#psdt-msg,#username-msg,#name-msg,#tel-msg{
+	font-size: 15px;
+	color: red;
+}
+
+#container-form .form-group{
+	padding-bottom: 52px;
+}
+/*     container-form   end      */
+
+
+/*        footer    start        */
+#footer{
+	position: absolute;
+	font-size: 14px;
+	top: 710px;
+	left: 46%;
+}
+/*        footer    end        */

@@ -1,0 +1,207 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+a:hover{
+	cursor: pointer;
+}
+
+#container{
+	width: 1349px;
+}
+
+#header{
+	height: 35px;
+}
+#head_nav{
+	height: 31px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	color: #999;
+	font-size: 12px;
+}
+
+#head_nav>div{
+	display: inline-block;
+}
+
+.head_nav_left{
+	margin-left: 45px;
+}
+
+.head_nav_left>a{
+	display: inline-block;
+	line-height: 31px;
+	text-align: center;
+	margin-left: 16px;
+}
+
+.head_nav_right{
+	margin-left: 550px;
+}
+
+.head_nav_right>a{
+	display: inline-block;
+	line-height: 31px;
+	text-align: center;
+	margin-right: 20px;
+}
+
+.head_nav_right_a:hover{
+	background-color: white;
+	padding-bottom: 1px;
+}
+
+#bodyer{
+	width: 1000px;
+	height: 500px;
+	padding-left: 180px;
+	padding-top: 20px;
+}
+
+#bodyer_search{
+	height: 95px;
+}
+
+#bodyer_search>form{
+	float: right;
+}
+
+#bodyer_search>form>input{
+	width: 330px;
+	height: 27px;
+	border: 3px solid #ff4400;
+	padding-left: 10px;
+}
+
+#bodyer_search>form>button{
+	background-color: #ff4400;
+	width: 93px;
+	height: 33px;
+	border: 1px solid #ff4400;
+	color: white;
+	font-size: 17px;
+	font-weight: 500;
+	letter-spacing: 5px;
+	position: relative;
+	left: -6px;
+	top: 1px;
+}
+
+#bodyer_search>form>button:hover{
+	cursor: pointer;
+}
+
+#bodyer_product{
+	height: 350px;
+	border-top: 2px solid #e6e6e6;
+	margin-top: 20px;
+}
+
+#product_info_head{
+	font-size: 13px;
+	color: #3c3c3c;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	padding-left: 530px;
+}
+
+#product_info_head>a{
+	margin-right: 80px;
+}
+
+#bodyer_product>form{
+	margin-top: 30px;
+}
+
+#product_info{
+	width: 988px;
+	height: 199px;
+	border: 1px solid #cccccc;
+}
+
+#product_info>div{
+	height: 105px;
+	padding-top: 20px;
+	background-color: #fcfcfc;
+	border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+#product_info>div>*{
+	float: left;
+	font-size: 12px;
+	margin-left: 33px;
+}
+
+#product_info>div>img{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #16bd53;
+}
+
+#product_info>div>input[type="number"]{
+	width: 130px;
+}
+
+#settlement{
+	width: 990px;
+	height: 50px;
+	margin-top: 20px;
+	background-color: #e5e5e5;
+}
+
+#settlement>*{
+	float: right;
+}
+
+#settlement>input{
+	width: 120px;
+	height: 50px;
+	background-color: #ff4400;
+	border: 0px;
+	color: white;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+
+#settlement>input:hover{
+	background-color: red;
+	cursor: pointer;
+}
+
+#money{
+	line-height: 50px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+#footer{
+	height: 100px;
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-left: 130px;
+	font-size: 12px;
+	clear: both;
+	border-top: 1px solid #dddddd;
+}
+
+#footer>a{
+	margin-right: 10px;
+}
+
+#foot>a:link,#foot>a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+#foot>a:hover,#foot>a:hover:active{
+	text-decoration: underline;
+}
+
+#footer>div{
+	color: #999999;
+}

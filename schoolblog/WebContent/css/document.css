@@ -1,0 +1,204 @@
+@CHARSET "UTF-8";
+
+
+body{
+	background: #F5F6F7;
+}
+#header{
+	padding:10px 0px 10px 0px;
+	background: #FFFFFF;
+}
+
+/*      header        start      */
+#header-img{
+	float: left;
+	margin: 15px 0px 5px 5px;
+}
+
+.header-menu>li{
+	float: left;
+	font-size: 16px;
+	font-family: "bodoni mt";
+	margin:15px 5px 5px 20px;
+}
+.header-menu li a{
+	color:black;	
+}
+.header-menu li a:hover{
+	cursor:pointer;
+	color:black;
+}
+.header-menu li a:hover{
+	text-decoration: none;
+	color: red;
+}
+
+.user_header{
+	position:relative;
+}
+.indexLoginInfo{
+	position:absolute;
+	top:16%;
+	width:100%;
+}
+.indexLogin{
+	margin-left:0%;
+	background:#fff;
+	text-align: center;
+}
+
+.header_myInformation{
+	padding:15% 0% 0% 0%;
+}
+
+.indexLogin li{
+	padding-bottom:-10%;
+}
+.indexLogin li a{
+	font-size:16px;
+}
+
+
+#menu-left{
+	height: 100%;
+}
+
+#menu-right{
+	height: 100%;
+}
+
+/*      header        end      */
+
+
+
+
+#container{
+	position: relative;
+}
+
+/*     left   start    */
+#left ul {
+	margin:10% 0 0 70%;
+	
+}
+#left ul li{
+	margin-bottom: 5px;
+}
+#left ul li button{
+	width: 50px;
+}
+#left ul li p{
+	font-size: 12px;
+}
+
+/*     left   end    */
+
+/*     middle   start    */
+#middle{
+	background: #FFFFFF;
+
+}
+/* --------文章头部分-------------*/
+.doc_header h1{
+	font-size: 27px;
+	font-weight: 800;
+	margin:5% 0% 5% 0;
+	color: black;
+}
+.doc_header h1 span{
+	font-size: 24px;
+	padding-right: 2%;
+}
+.doc_time{
+	padding:0 55% 0 5%;
+}
+/* --------作者信息部分-------------*/
+.authorIntroduce{
+	font-size: 16px;
+	padding: 1% 1% 1% 1%;
+	background-color:#EEF0F4;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+/* --------文章部分-------------*/
+.doc_text{
+	margin-top: 5%;
+	font-size: 17px;
+}
+
+/*     middle   end    */
+
+
+/*     right   start    */
+#right{
+	margin-left: 2%;
+}
+
+.authorInfo{
+	background: #FFFFFF;
+}
+
+.gerenziliao{
+	margin: 5% 0 5% 2%;
+	font-size: 16px;
+	color:red;
+	font-weight: 900;
+	padding-top:10px;
+}
+.gerenziliao span{
+	color: red;
+	font-size: 20px;
+}
+
+.touxiang {
+	font-size: 18px;
+	margin-bottom: 10%;
+}
+.touxiang img{
+	margin: 0 5% 0 2%;
+	border-radius: 60px;
+	width:70px;
+	height: 70px;
+}
+.touxiang button{
+	margin-left: 30%;
+}
+
+.personalMessage{
+	background: #FFFFFF;
+}
+.megTitle{
+	
+	margin-left: 3%;
+	font-size: 17px;
+}
+/*     右侧推荐             */
+.tuijianLi{
+	margin-bottom: 10%;
+}
+.tuijianA{
+	font-size:15px;
+	font-weight: bold;
+}
+.tuijianP{
+	font-size:75%;
+	color:#8a8a8a;
+}
+/*     right   end    */
+
+
+
+
+/*   通用     */
+hr{
+	background-color:#D3D3D3;
+	height:1px;
+	border:none;
+}
+
+.kongbai{
+	height: 20px;
+}
+
+
+
